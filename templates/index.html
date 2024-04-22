@@ -1,0 +1,58 @@
+{% extends 'layout.html' %}
+
+{% block content %}
+<div class="card">
+  <div class="card-header bg-info text-center" style="color: white;"><b>
+      <h3>LLM Powered - Invoice Extractor</h3>
+    </b></div>
+  <div class="card-body">
+    
+        <div class="card">
+          <div class="card-header"><b>Data Source</b></div>
+          <div class="card-body">
+            <form id="inputForm">
+                  <label for="dataDirectory">Data Directory Path</label>
+                  <div class="row">
+                    <div class="col-sm-9">
+                      <input name="dataDirectory" style="display:inline" type="text" class="form-control" id="dataDirectory"
+                      placeholder="Input Data Directory Path">
+                    </div>
+                    <div class="col-sm-3">
+                      <button type="button" class="btn btn-info" onclick="setParameters()" value="submit"
+                      style="cursor: pointer;">Submit</button>
+                    </div>
+                  </div>
+                  <!-- <input type="file" name="dir" value="webkitdirectory directory multiple"/> -->
+            </form>
+          </div>
+        </div>
+      
+  </div>
+  <div class="card-body" id="invoiceBody">
+    
+  </div>
+ 
+</div>
+
+  
+  <script>
+    function setParameters() {
+    // $('#loader').removeClass('hidden')
+    var form_data = new FormData($('#inputForm')[0]);
+    // $("#myModal").modal('show');
+    $.ajax({
+        type: 'POST',
+        url: '/set_params_session',
+        data: form_data,
+        contentType: false,
+        cache: false,
+        processData: false,
+        success: function(data) {
+          alert(data)
+         $("#invoiceBody").html(data)
+          // $("#myModal").modal('hide');
+        },
+    });
+}
+  </script>
+{% endblock %}

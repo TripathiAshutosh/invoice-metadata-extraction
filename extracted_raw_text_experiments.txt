@@ -1,0 +1,78 @@
+os lal eae ee eee. ane ee ee NENT ELLIPSIS LOPE a Ext INVOICE Original _. SSREE KRISHNA ANODIZERS Unit: POWDER COATINGS : B-29, NGEF Ancillary Industrial Estate, Mahadevapura, Bangalore - 560 048. Invoice No :SKA/ -23/24 HSNACS =: 998873 Date of issue : Os (0% {2093 Type of issue: Service Bill 2 ( © Oc nanel 2? te a Votiou§ r oF ) ie GSTIN : 29ABOPR2420E1ZM Sutwey c00 - 2th ae “A Riis. . State : Karnataka: Bieladia holly Lal er é Chemal cp Service Receipient ‘(PO NMo fread, Udngods 00.4 “uL- Delivery Address : 006292 GSTN / UNIUQ ID: Boatac- eCKy ¥ kite 9 - thos JO 2 tb P BE Nd | SiNo. [Name of goods and Services [UOM| Gn [Rare oa ai. FHam§ M0 xbeo y a Ss Fromm AAS ‘ Bong ATS S'L ros SL pox Q So L Pos Ay sos AnNovations Pyt, | GRN No.. ieee) Be Name: cr |SGST: 9% /« Et ooh (Trans Oi ttrerland Wee haha fe POL ogy At SREE KRISHNA ANODIZERS: Signatory Autho: Declaration : !)./We declare that the invoice shows actual price of the goods and / or services | described and that all particular are true and connect w\ 2). Error and ommission in this invoice shall be subject to the jurisdiction of Bangalore \'
+
+
+
+{'invoice_information': [{'address': [{'name': 'UNITED OFFICE SYSTEMS PVT LTD', 'address_line': 'Survey No. 62/1P, 1,2 & 3.Village - Vankas, Taluka - Umbergaon', 'city': 'Valsad', 'state_province_code': 'Gujarat', 'postal_code': 396150}]}, {'bill': [{'product_description': 'Supply of Unitile Solid Fill, (USF-LFW) 600x600 mm, 35 mm thick, Grade 1250 EB with top performance finish of HPL 1.20 with ESRG understructure system suitable for finish floor height of up to 150mm.', 'count': '3,332.53 Sq. Feet', 'unit_item_price': '405.00', 'product_total_price': '1,349,676.43'}]}]}
+
+{'invoice_information': [{'address': [{'name': 'UNITED OFFICE SYSTEMS PVT LTD', 'address_line': 'Survey No. 62/1P, 1,2 & 3.Village - Vankas, Taluka - Umbergaon', 'city': 'Valsad', 'state_province_code': 'Gujarat', 'postal_code': 396150}]}, {'invoice_number': '7506060923054'}, {'total_bill': {'total': 1349676.43, 'discount_amount': 0, 'tax_amount': 242941.76, 'delivery_charges': 0, 'final_total': 1592618.19}}, {'bill': [{'product_description': 'Supply of Unitile Solid Fill, (USF-LFW) 600x600 mm, 35 mm thick, Grade 1250 EB with top performance finish of HPL 1.20 with ESRG understructure system suitable for finish floor height of up to 150mm.', 'count': '3,332.53 Sq. Feet', 'unit_item_price': '405.00', 'product_total_price': '1,349,676.43'}]}]}
+
+{'invoice_information': [{'invoice_number': '7506060923054', 'address': {'name': 'Philips India Ltd, Exotic Innovations Pvt Ltd', 'address_line': "Philips Innovation Campus, Bangalore Embassy # 361/24 'Arunodaya', 7th cross, Wilson Garden", 'city': 'Bengaluru', 'state_province_code': 'Karnataka', 'postal_code': 560064}}]}
+
+{
+    'invoice_information': 
+        [{
+            'invoice_number': '7506060923054', 
+            'address': {'name': 'Philips India Ltd, Exotic Innovations Pvt Ltd', 'address_line': "Embassy # 361/24 'Arunodaya', 7th cross, Wilson Garden", 'city': 'Bengaluru', 'state_province_code': 'Karnataka', 'postal_code': '560027'}, 
+            'total_bill': {'total': 1349676.43, 'discount_amount': 0, 'tax_amount': 242941.76, 'delivery_charges': 0, 'final_total': 1592618}, 
+            'bill': {'product_description': 'Supply of Unitile Solid Fill, (USF-LFW) 600x600 mm, 35 mm thick, Grade 1250 EB with top performance finish of HPL 1.20 with ESRG understructure system suitable for finish floor height of up to 150mm.', 'count': '3,332.53 Sq. Feet', 'unit_item_price': '405.00', 'product_total_price': '1349676.43'}
+        }]
+    }
+
+{'invoice_information': [{'invoice_number': '7506060923054', 'address': {'name': 'Philips India Ltd, Exotic Innovations Pvt Ltd', 'address_line': "Embassy # 361/24 'Arunodaya', 7th cross, Wilson Garden", 'city': 'Bengaluru', 'state_province_code': 'Karnataka', 'postal_code': '560027'}, 'total_bill': {'total': 1349676.43, 'discount_amount': 0, 'tax_amount': 242941.76, 'delivery_charges': 0, 'final_total': 1592618}, 'bill': {'product_description': 'Supply of Unitile Solid Fill, (USF-LFW) 600x600 mm, 35 mm thick, Grade 1250 EB with top performance finish of HPL 1.20 with ESRG understructure system suitable for finish floor height of up to 150mm.', 'count': '3,332.53 Sq. Feet', 'unit_item_price': '405.00', 'product_total_price': '1349676.43'}}]}
+
+{'invoice_information': [{'invoice_number': '7506060923054', 'address': {'name': 'Philips India Ltd, Exotic Innovations Pvt Ltd', 'address_line': "Embassy # 361/24 'Arunodaya', 7th cross, Wilson Garden", 'city': 'Bengaluru', 'state_province_code': 'Karnataka', 'postal_code': '560027'}, 'total_bill': {'total': 1349676.43, 'discount_amount': 0, 'tax_amount': 242941.76, 'delivery_charges': 0, 'final_total': 1592618}, 'bill': {'product_description': 'Supply of Unitile Solid Fill, (USF-LFW) 600x600 mm, 35 mm thick, Grade 1250 EB with top performance finish of HPL 1.20 with ESRG understructure system suitable for finish floor height of up to 150mm.', 'count': '3,332.53 Sq. Feet', 'unit_item_price': '405.00', 'product_total_price': '1349676.43'}}]}
+
+{'name': 'Philips India Ltd, Exotic Innovations Pvt Ltd', 'address_line': "Embassy # 361/24 'Arunodaya', 7th cross, Wilson Garden", 'city': 'Bengaluru', 'state_province_code': 'Karnataka', 'postal_code': '560027'}
+
+
+{
+    'invoice_information': [
+        {
+            'invoice_number': '7506060923054', 
+            'address': [{'name': 'Philips India Ltd, Exotic Innovations Pvt Ltd', 'address_line': "Embassy # 361/24 'Arunodaya', 7th cross, Wilson Garden", 'city': 'Bengaluru', 'state_province_code': 'Karnataka', 'postal_code': '560027'}]
+        }, 
+        {
+            'total_bill': [{'total': 1349676.43, 'discount_amount': 0, 'tax_amount': 242941.76, 'delivery_charges': 0, 'final_total': 1592618.19}]
+        }, 
+        {
+            'bill': [{'product_description': 'Supply of Unitile Solid Fill, (USF-LFW) 600x600 mm, 35 mm thick, Grade 1250 EB with top performance finish of HPL 1.20 with ESRG understructure system suitable for finish floor height of up to 150mm.', 'count': '3,332.53 Sq. Feet', 'unit_item_price': '405.00', 'product_total_price': '1,349,676.43'}]
+        }
+        
+        ]
+}
+
+{'invoice_information': [{'address': [{'name': 'UNITED OFFICE SYSTEMS PVT LTD', 'address_line': 'Survey No. 62/1P, 1,2 & 3.Village - Vankas, Taluka - Umbergaon', 'city': 'Valsad', 'state_province_code': 'Gujarat', 'postal_code': 396150}]}, {'total_bill': [{'total': 1349676.43, 'discount_amount': 0, 'tax_amount': 242941.76, 'delivery_charges': 0, 'final_total': 1592618.19}]}, {'bill': [{'product_description': 'Supply of Unitile Solid Fill, (USF-LFW) 600x600 mm, 35 mm thick, Grade 1250 EB with top performance finish of HPL 1.20 with ESRG understructure system suitable for finish floor height of up to 150mm.', 'count': '3,332.53 Sq. Feet', 'unit_item_price': '405.00', 'product_total_price': '1349676.43'}]}]}
+
+{'invoice_information': [{'invoice_number': '7506060923054', 'address': [{'name': 'Philips India Ltd, Exotic Innovations Pvt Ltd', 'address_line': "Philips Innovation Campus, Bangalore Embassy # 361/24 'Arunodaya', 7th cross, Wilson Garden", 'city': 'Bengaluru', 'state_province_code': 'Karnataka', 'postal_code': 560064}], 'total_bill': [{'total': 1349676.43, 'discount_amount': 0, 'tax_amount': 242941.76, 'delivery_charges': 0, 'final_total': 1592618}], 'bill': [{'product_description': 'Supply of Unitile Solid Fill, (USF-LFW) 600x600 mm, 35 mm thick, Grade 1250 EB with top performance finish of HPL 1.20 with ESRG understructure system suitable for finish floor height of up to 150mm.', 'count': '3,332.53 Sq. Feet', 'unit_item_price': '405.00', 'product_total_price': '1349676.43'}]}]}
+
+
+{
+    'invoice_information': [
+        {'invoice_number': '7506060923054', 
+        
+        'address': {'name': 'Philips India Ltd, Exotic Innovations Pvt Ltd', 'address_line': "Embassy # 361/24 'Arunodaya', 7th cross, Wilson Garden", 'city': 'Bengaluru', 'state_province_code': 'Karnataka', 'postal_code': '560027'}, 
+        
+        'total_bill': {'total': 1349676.43, 'discount_amount': 0, 'tax_amount': 242941.76, 'delivery_charges': 0, 'final_total': 1592618}, 
+        
+        'bill': {'product_description': 'Supply of Unitile Solid Fill, (USF-LFW) 600x600 mm, 35 mm thick, Grade 1250 EB with top performance finish of HPL 1.20 with ESRG understructure system suitable for finish floor height of up to 150mm.', 'count': '3,332.53 Sq. Feet', 'unit_item_price': '405.00', 'product_total_price': '1349676.43'}
+        }]
+    }
+
+
+    {'invoice_information': [{
+        'invoice_number': 'IAI-641/23-24', 
+        'bill': {'product_description': 'Ecophon Ceiling Systems', 'count': '4,096.00', 'unit_item_price': '120.00', 'product_total_price': '491520.00'}}, 
+        
+        {'address': {'name': 'EXOTIC INNOVATIONS PVT LTD-Hyd', 'address_line': 'Unit No. 2A; 2nd Floor Business Park, Lumbini Layout, Immediate Gachibowli, Serilingampally', 'city': 'HYDERABAD', 'state_province_code': '500032', 'postal_code': '500032'}}, 
+        
+        {'total_bill': {'total': 491520.0, 'discount_amount': 0, 'tax_amount': 88473.6, 'delivery_charges': 0, 'final_total': 378994.0}
+        }]}
+
+    {'invoice_information': [{'invoice_number': 'BLR1467/23-24', 'address': {'name': 'ECOWOOD EXPORTS PVT LTD', 'address_line': 'NO. 325/3, 1ST FLOOR, 20TH MAIN, 11TH CROSS, F BLOCK, SAHAKARNAGAR', 'city': 'BANGALORE', 'state_province_code': 'KA', 'postal_code': '560092'}}, {'total_bill': {'total': 309335, 'discount_amount': 0, 'tax_amount': 47186.7, 'delivery_charges': 0, 'final_total': 356521.7}}, {'bill': {'product_description': '12mm Plywood 2.44 X 1.22 Mtrs', 'count': 'Nos', 'unit_item_price': 220.0, 'product_total_price': 262148.32}}]}
+
+
+    {% for table in tables %}
+            <!-- {{titles[loop.index]}}
+            {{ table|safe }} -->
+            {{ table|tojson }}
+{% endfor %}

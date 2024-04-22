@@ -1,0 +1,70 @@
+<div class="card">
+    
+    <div class="card-header"><b>
+        
+        <button class="btn btn-link" data-toggle="collapse" data-target="#collapse_raw_text" aria-expanded="false" aria-controls="collapse_raw_text">
+            Invoice Extracted Text
+          </button>
+
+    </b></div>
+    <div id="collapse_raw_text" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+        <div class="card-body">
+
+            <table class="table table-hover">
+                <thead>
+                    <tr>
+                        <th scope="col">Filename</th>
+                        <th scope="col">Raw Text</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for index, row in df_raw_text.iterrows() %}
+                    <tr>
+                        <td class="col-sm-3">
+                            <button class="btn btn-link" data-toggle="collapse" data-target="#collapse_{{index}}" aria-expanded="false" aria-controls="collapse_{{index}}">
+                                {{ row['Filename']|safe }}
+                            </button>
+                            </td>
+                        <td class="col-sm-9">
+                            <div id="collapse_{{index}}" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+                                <div class="card-body">
+                                    {{ row['Raw_Text']|safe }}
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+<div class="card">
+    <div class="card-header"><b>
+        <button class="btn btn-link" data-toggle="collapse" data-target="#collapse_metadata" aria-expanded="false" aria-controls="collapse_metadata">
+            Invoice Metadata
+          </button>
+    </b></div>
+    <div id="collapse_metadata" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+    <div class="card-body">
+
+        <table class="table table-hover">
+            <thead>
+                <tr>
+                    <th scope="col">Filename</th>
+                    <th scope="col">Metadata</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for index, row in df.iterrows() %}
+                <tr>
+                    <td>{{ row['Filename']|safe }}</td>
+                    <td>{{ row['Invoice_Metadata']|safe }}</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+    </div>
+</div>
