@@ -27,6 +27,21 @@ Machine Learning (ML) algorithms
 Template-based extraction
 Partial RAG based Prompt enabled LLM Powered Invoice extractor
 
+Challenges
+
+Variability in invoice formats and layouts
+Poor image quality and resolution
+Handwritten text recognition
+Language and localization issues
+<img width="355" alt="image" src="https://github.com/TripathiAshutosh/invoice-metadata-extraction/assets/40880107/2341c176-d670-41d3-85a1-0073b395ecc0">
+
+Future Roadmap
+
+Development of hybrid approaches combining OCR, NLP, and ML techniques.
+Standardization efforts to streamline invoice formats and layouts.
+Expansion of multilingual support and language understanding capabilities.
+Integration of advanced AI technologies like deep learning for improved accuracy.
+![Uploading image.png…]()
 
 
 
