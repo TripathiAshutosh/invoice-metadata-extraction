@@ -1,0 +1,57 @@
+name: SIRPlugin
+description: Plugin to interact with ServiceNow SIR APIs for security data
+version: 1.0.0
+author: Your Name
+
+data_sources:
+  - name: SecurityIncidents
+    type: api
+    endpoint: https://your-servicenow-instance/api/now/table/sn_si_incident
+    method: GET
+    headers:
+      Authorization: Bearer YOUR_API_KEY
+    schedule: every 10 minutes
+
+actions:
+  - name: CreateSecurityIncident
+    type: api
+    endpoint: https://your-servicenow-instance/api/now/table/sn_si_incident
+    method: POST
+    headers:
+      Authorization: Bearer YOUR_API_KEY
+    request_body:
+      short_description: "New security incident from Copilot"
+      category: "Malware"
+      priority: "High"
+
+  - name: UpdateSecurityIncident
+    type: api
+    endpoint: https://your-servicenow-instance/api/now/table/sn_si_incident/{sys_id}
+    method: PUT
+    headers:
+      Authorization: Bearer YOUR_API_KEY
+    request_body:
+      state: "Resolved"
+
+  - name: RetrieveThreatIntelligence
+    type: api
+    endpoint: https://your-servicenow-instance/api/now/table/sn_ti_observable
+    method: GET
+    headers:
+      Authorization: Bearer YOUR_API_KEY
+
+functions:
+  - name: process_security_incidents
+    language: python
+    code: |
+      import json
+
+      def process_security_incidents(data):
+          # Process and analyze security incidents
+          incidents = json.loads(data)
+          for incident in incidents:
+              print(incident)
+
+deployments:
+  - environment: production
+    schedule: every 10 minutes
